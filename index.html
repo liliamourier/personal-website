@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="A professional portfolio featuring environmental focus, communication and design, selected work, and contact information."
+    >
+    <title>Your Name | Science Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css?v=hero-fog-lighter">
+  </head>
+  <body>
+    <!--
+      EDITING MAP
+      - Change text, links, image filenames, and section order in this file.
+      - Change positioning, spacing, colors, fonts, and grid layouts in styles.css.
+      - Search for bracketed placeholders like [Title] and replace them.
+    -->
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Go to home">
+        <span class="brand-mark">LM</span>
+        <span class="brand-text">Lilia Mourier, M.S.</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#selected-work">Selected Work</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HERO: first screen. Keep this short and graphic. -->
+      <section class="hero section-band" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow">Hi, welcome to my portfolio.</p>
+          <div
+            class="name-reveal"
+            tabindex="0"
+            aria-label="Lilia Mourier: applied conservation science, climate adaptation planning, visual storytelling for environmental change, resilient landscapes and communities, place-based science and decision-making"
+          >
+            <h1>Lilia Mourier</h1>
+            <div class="identity-words" aria-hidden="true">
+              <span>Applied conservation science</span>
+              <span>Climate adaptation planning</span>
+              <span>Visual storytelling for environmental change</span>
+              <span>Resilient landscapes & communities</span>
+              <span>Place-based science & decision-making</span>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- ABOUT: bio, images, environmental focus, and communication/design. -->
+      <section class="intro section-band" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2>Environmental work shaped by coastlines, communities, and change.</h2>
+        </div>
+        <div class="about-layout">
+          <figure class="image-frame headshot-frame" data-placeholder="Add assets/Headshot.jpg">
+            <img
+              src="assets/Headshot.jpg"
+              alt="Professional headshot of Your Name"
+              onerror="this.closest('.image-frame').classList.add('is-placeholder'); this.remove();"
+            >
+          </figure>
+          <div class="two-column">
+            <p>
+              I grew up on the San Francisco Bay Peninsula, between baylands, coastline, and the Santa
+              Cruz Mountains. I now feel rooted between the Bay Area and the Santa Ynez Mountains, where
+              I spend as much time as I can hiking, making things by hand, baking, and hanging out with
+              my two cats.
+            </p>
+            <p>
+              I am a California-based environmental professional with over six years of experience across
+              riparian, estuarine, and coastal systems. I hold a B.S. in Marine and Coastal Science with a
+              minor in Geology from UC Davis, and recently earned a master's degree in Environmental Science
+              and Management from the University of California, Santa Barbara Bren School, specializing in
+              conservation planning and coastal resource management with a focus in science communication.
+              My work centers on climate adaptation, conservation planning, and decisions at the
+              wildland-urban interface, with a parallel focus on data visualization, cartography, and visual
+              storytelling.
+            </p>
+          </div>
+        </div>
+
+        <!-- IMAGE GRID: replace the filenames in src="" with your own images in assets/. -->
+        <div class="section-subsection image-section" aria-label="Selected photography">
+        <div class="image-grid">
+          <figure class="image-frame" data-placeholder="Add assets/sunset_ridge.jpg">
+            <img
+              src="assets/sunset_ridge.jpg"
+              alt="Sunset over a ridge landscape"
+              onerror="this.closest('.image-frame').classList.add('is-placeholder'); this.remove();"
+            >
+          </figure>
+          <figure class="image-frame" data-placeholder="Add assets/swirly_rock_coast.jpg">
+            <img
+              src="assets/swirly_rock_coast.jpg"
+              alt="Swirling rock patterns along the coast"
+              onerror="this.closest('.image-frame').classList.add('is-placeholder'); this.remove();"
+            >
+          </figure>
+          <figure class="image-frame" data-placeholder="Add assets/shadows_ridge.jpg">
+            <img
+              src="assets/shadows_ridge.jpg"
+              alt="Shadows across a ridge landscape"
+              onerror="this.closest('.image-frame').classList.add('is-placeholder'); this.remove();"
+            >
+          </figure>
+        </div>
+        </div>
+
+      </section>
+
+      <!-- SELECTED WORK: update href="#" to link to PDFs, slides, reports, maps, or pages. -->
+      <section class="section-band" id="selected-work">
+        <div class="section-heading">
+          <p class="eyebrow">Selected Work</p>
+          <h2>Explore a selection of my work.</h2>
+        </div>
+
+        <div class="selected-grid" aria-label="Selected work">
+          <a class="selected-card featured" href="assets/infographic.pdf" target="_blank" rel="noopener">
+            <span>Infographic</span>
+            <strong>Break Down California's Shoreline Armoring</strong>
+            <em>Infographic.</em>
+          </a>
+
+          <a
+            class="selected-card"
+            href="https://liliamourier.github.io/Mourier-eds240-HW4/"
+            target="_blank"
+            rel="noopener"
+          >
+            <span>Blog</span>
+            <strong>Break Down California's Shoreline Armoring</strong>
+            <em>Design process blog post.</em>
+          </a>
+
+          <a class="selected-card" href="assets/storymap.mov" target="_blank" rel="noopener">
+            <span>StoryMap</span>
+            <strong>Bay Sediment in Motion</strong>
+            <em>StoryMap screen recording.</em>
+          </a>
+
+          <a class="selected-card" href="assets/Advancing_Managed_Retreat_Report.pdf" target="_blank" rel="noopener">
+            <span>Report</span>
+            <strong>Advancing Managed Retreat in California</strong>
+            <em>Long-form master's group project report.</em>
+          </a>
+
+          <a
+            class="selected-card"
+            href="assets/20260417%20Public%20Impact%20Presentation.pdf"
+            target="_blank"
+            rel="noopener"
+          >
+            <span>Slide Deck</span>
+            <strong>Advancing Managed Retreat in California</strong>
+            <em>Presentation deck.</em>
+          </a>
+
+          <a
+            class="selected-card"
+            href="assets/UCSB_Advancing_Managed_Retreat_Executive_Summary.pdf"
+            target="_blank"
+            rel="noopener"
+          >
+            <span>Executive Summary</span>
+            <strong>Advancing Managed Retreat in California</strong>
+            <em>Executive summary.</em>
+          </a>
+
+          <a
+            class="selected-card"
+            href="assets/Bay%20Sediment%20%20in%20Motion%20Slides.pdf"
+            target="_blank"
+            rel="noopener"
+          >
+            <span>Slide Deck</span>
+            <strong>Bay Sediment in Motion</strong>
+            <em>Presentation deck.</em>
+          </a>
+
+          <a class="selected-card" href="assets/maps/vws_streams_map.png" target="_blank" rel="noopener">
+            <span>Map</span>
+            <strong>Ventura River Watershed Surface Hydrology</strong>
+            <em>Map.</em>
+          </a>
+        </div>
+      </section>
+
+      <!-- CONTACT: update links and email address. -->
+      <section class="contact section-band" id="contact">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2>Let's connect.</h2>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:liliamourier@ucsb.edu">Work Email</a>
+          <a href="mailto:lilia.p.mourier@gmail.com">Personal Email</a>
+          <a href="tel:+16508924216">Phone</a>
+          <a href="https://www.linkedin.com/in/liliamourier" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 Your Name. Built as a static HTML portfolio.</p>
+    </footer>
+
+    <script src="script.js?v=hover-fast"></script>
+  </body>
+</html>
